@@ -1,0 +1,111 @@
+body{
+    background-color:blanchedalmond;
+}
+
+
+
+$black: #0D0D0D;
+$white:#F2F2F2;
+$yellow:#f2cc0f;
+$green: #8cbf3f;
+$purple: #9453a6;
+.nanlogo{
+    width: 70px;
+    height: 70px;
+    
+}
+
+
+
+.navbar{
+    background-image: linear-gradient(-90deg,  #9453a6, #f2cc0f, #8cbf3f  );
+    font-family: 'Henny Penny', cursive;
+    font-size: 20px;
+    color:purple;
+
+     
+
+}
+.TiltleMedia{
+    padding: 10px 50px;
+    margin-top: 10px;
+    color: blueviolet;
+    font-weight: bold;
+    font-family:'Henny Penny', cursive; 
+    text-align: center;
+}
+
+.item{
+    transition: .5s ease-in-out;
+}
+
+.item:hover{
+    filter: brightness(80%);
+}
+
+
+
+
+
+
+// .Gallery{
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content:center;
+//     margin: 10px 50px; 
+//     background: url(/lightbox2-2.11.3\ \(1\));
+
+
+
+//     img{
+//         transition: 1s;
+//         padding: 15px;
+//         width: 200px;
+
+//         @media (max-width:600px) {
+//             width: 100px;
+//         }
+        
+//     }
+    
+// }
+// .Gallery img:hover{
+//     filter: grayscale(100%);
+//     transform: scale(1.1);
+
+// }
+.vidoes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding: 10px;
+   
+    @media (max-width: 300px ){
+ 
+     flex-direction:column;    
+    }
+
+
+
+}
+
+
+
+
+footer{
+    background-color: #000 ;
+    color: white;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+
+
+

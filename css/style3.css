@@ -1,0 +1,71 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.nanlogo {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar {
+  background-image: -webkit-gradient(linear, right top, left top, from(#9453a6), color-stop(#f2cc0f), to(#8cbf3f));
+  background-image: linear-gradient(-90deg, #9453a6, #f2cc0f, #8cbf3f);
+  font-family: 'Henny Penny', cursive;
+  font-size: 20px;
+  color: purple;
+}
+
+.TiltleMedia {
+  padding: 10px 50px;
+  margin-top: 10px;
+  color: blueviolet;
+  font-weight: bold;
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+}
+
+.item {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.item:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.vidoes {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding: 10px;
+}
+
+@media (max-width: 300px) {
+  .vidoes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style3.css.map */

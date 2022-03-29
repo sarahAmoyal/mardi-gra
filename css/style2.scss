@@ -1,0 +1,138 @@
+$black: #0D0D0D;
+$white:#F2F2F2;
+$yellow:#f2cc0f;
+$green: #8cbf3f;
+$purple: #9453a6;
+
+body{
+    background-color: blanchedalmond;
+
+
+    .nanlogo{
+        width: 70px;
+        height: 70px;
+        
+    }
+    
+    .navbar{
+        background-image: linear-gradient(-90deg,  #9453a6, #f2cc0f, #8cbf3f  );
+        font-family: 'Henny Penny', cursive;
+        font-size: 20px;
+        color:purple;
+    
+         
+    
+    }
+    .aboutContainer{
+        width: 80%;
+        margin-left: 20px;
+        font-size: 20px;
+     
+
+
+        hr{
+            size: 15px;
+            color:linear-gradient(-90deg,  #9453a6, #f2cc0f, #8cbf3f  ); ;
+        }
+
+
+    }
+
+    
+    .social-menu ul{
+//  position:absolute;
+//  top:50%;
+//  left: 50%;
+
+ padding: 5px;
+ margin: 0;
+//  transform: translate(-50%, -50%);
+ display: flex;
+    }
+    .social-menu ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    .social-menu ul li .fa{
+        font-size: 30px;
+        line-height: 60px;
+        transition: .6s;
+       
+    }
+    .social-menu ul li a{
+        position: relative;
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #fff;
+        text-align: center;
+        transition: .6s;
+        box-shadow:  0 5px 4px rgba(0,0,0,.5);
+
+        &:hover{
+            transform: translate(0, -10px);
+        }
+    }
+
+    
+    
+    footer{
+        background-color:black; 
+        color: white;
+        width: 100vw;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 15px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    
+    }
+
+
+    
+    .TiltleMedia{
+        padding: 10px 50px;
+        margin-top: 10px;
+        color: blueviolet;
+        font-weight: bold;
+        font-family:'Henny Penny', cursive; 
+        text-align: center;
+
+    }
+
+
+    
+   
+
+
+
+}
+.TiltleMap{
+       padding: 10px 50px;
+        margin-top: 10px;
+        color: blueviolet;
+        font-weight: bold;
+        font-family:'Henny Penny', cursive; 
+        text-align: center;
+
+       
+
+}
+
+.map-wrapper{
+    max-width: 700px;
+    border: 2px solid purple;
+   
+    @media (min-width:800px) {
+        margin-left: 400px;      
+            
+
+    }
+    
+    
+}
+.googlemap{
+    width:100%;
+   
+}

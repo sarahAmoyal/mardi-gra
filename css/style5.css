@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-color: blanchedalmond;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: url("https://images.pexels.com/photos/6781797/pexels-photo-6781797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  }
+}
+
+body .navbar {
+  background-image: -webkit-gradient(linear, right top, left top, from(#9453a6), color-stop(#f2cc0f), to(#8cbf3f));
+  background-image: linear-gradient(-90deg, #9453a6, #f2cc0f, #8cbf3f);
+  font-family: 'Henny Penny', cursive;
+  font-size: 20px;
+  color: purple;
+}
+
+body .navbar .nanlogo {
+  width: 70px;
+  height: 70px;
+}
+
+body .contact-form {
+  margin-top: 100px;
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 30px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px #000000b3;
+          box-shadow: 0 0 20px #000000b3;
+  font-family: sans-serif;
+}
+
+@media (max-width: 600px) {
+  body .contact-form {
+    position: relative;
+    margin-top: 350px;
+  }
+}
+
+body .contact-form h1 {
+  margin-top: 0;
+  font-weight: 200;
+}
+
+body .contact-form .txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+body .contact-form .txtb label {
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+body .contact-form .txtb input, body .contact-form .txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+body .contact-form .btn {
+  display: inline-block;
+  background-color: #9b59b6;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 8px;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  margin-top: 700px;
+  background-color: #000;
+  color: white;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  footer {
+    position: relative;
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=style5.css.map */

@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+
+    .navbar{
+        background-image: linear-gradient(-90deg,  #9453a6, #f2cc0f, #8cbf3f  );
+        font-family: 'Henny Penny', cursive;
+        font-size: 20px;
+        color:purple;
+    
+        .nanlogo{
+            width: 70px;
+            height: 70px;
+            
+        }
+    
+         
+    
+    
+    }
+
+    .TiltleMedia{
+        padding: 10px 50px;
+        margin-top: 10px;
+        color: blueviolet;
+        font-weight: bold;
+        font-family:'Henny Penny', cursive; 
+        text-align: center;
+
+
+        @media (max-width:400px) {
+          display: none;   
+        }
+
+    }
+.accordion{
+
+
+    .card{
+        background-color:#9453a6;
+        color: #f2cc0f;
+    }
+    
+
+    
+   
+    @media (min-width:800px ) {
+        
+        width: 80%;
+        margin: 30px 130px ;
+    }
+    
+}
+
+
+
+
+
+footer{
+    background-color:black; 
+    color: white;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 120px;
+   
+    @media (max-width:400px) {
+        margin-top: 80px;  
+      }
+
+}
+

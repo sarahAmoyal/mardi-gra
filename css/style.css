@@ -1,0 +1,136 @@
+html, body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: blanchedalmond;
+  height: 100%;
+}
+
+html .navbar, body .navbar {
+  background-image: -webkit-gradient(linear, right top, left top, from(#9453a6), color-stop(#f2cc0f), to(#8cbf3f));
+  background-image: linear-gradient(-90deg, #9453a6, #f2cc0f, #8cbf3f);
+  font-family: 'Henny Penny', cursive;
+  font-size: 20px;
+  color: purple;
+}
+
+html .navbar .nanlogo, body .navbar .nanlogo {
+  width: 70px;
+  height: 70px;
+}
+
+html .textOnImg, body .textOnImg {
+  position: absolute;
+  top: 90%;
+  font-size: 50px;
+  color: white;
+  padding: 5px;
+  font-family: 'Henny Penny', cursive;
+}
+
+html .explanationContainer, body .explanationContainer {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  margin-left: 130px;
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+@media (max-width: 600px) {
+  html .explanationContainer, body .explanationContainer {
+    margin-left: 30px;
+  }
+}
+
+html .explanationContainer .titleCon, body .explanationContainer .titleCon {
+  font-family: 'Pattaya', sans-serif;
+}
+
+html .container, body .container {
+  height: 80vh;
+}
+
+html .container #sponsers, body .container #sponsers {
+  margin-left: 200px;
+  padding: 30px 0px;
+}
+
+@media (max-width: 600px) {
+  html .container #sponsers, body .container #sponsers {
+    margin-left: 0;
+  }
+}
+
+html .container #sponsers p, body .container #sponsers p {
+  font-size: 18px;
+}
+
+.sponsersTitle {
+  padding: 10px 50px;
+  margin-top: 10px;
+  color: blueviolet;
+  font-weight: bold;
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .container {
+    margin-left: 0%;
+  }
+}
+
+.footerDiv {
+  position: absolute;
+  margin-top: 1500px;
+}
+
+footer {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  position: relative;
+  margin-top: 1000px;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  footer {
+    margin-top: 3350px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  footer {
+    margin-top: 4100px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 770px) {
+  footer {
+    margin-top: 2000px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 900px) {
+  footer {
+    margin-top: 1800px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  footer {
+    margin-top: 1800px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
